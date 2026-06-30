@@ -1,0 +1,20 @@
+
+
+.contactFilterSection {
+    padding: 40px;
+}
+
+.title {
+    font-size: 34px;
+}
+
+.inputSearch {
+    background-color: #798469;
+    border: none;
+    border-radius: 20px;
+    
+}
+
+.inputSearch::placeholder{
+    color: #765467;
+}

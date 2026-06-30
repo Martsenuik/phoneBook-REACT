@@ -1,0 +1,23 @@
+.input{
+    background-color: #798469;
+    border: none;
+    border-radius: 20px;
+    
+}
+
+.contactFormSection {
+    padding: 40px;
+}
+
+.btnAdd{
+    background-color: #798469;
+    border: none;
+    color: #765467;
+}
+
+.contactForm{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}

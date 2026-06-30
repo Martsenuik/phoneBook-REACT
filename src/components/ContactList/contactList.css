@@ -1,0 +1,34 @@
+.contactList{
+    display: flex;
+    justify-content: center;
+    gap: 45px;
+}
+
+.contactItem{
+    list-style: none;
+    display: flex;
+    gap: 7px;
+}
+
+.btnDelete{
+        background-color: #798469;
+            border: none;
+            color: #765467;
+}
+
+.contactListSection{
+    padding: 40px;
+}
+
+.contactListTitle{
+    font-size: 34px;
+}
+
+
+
+
+
+
+
+
+
