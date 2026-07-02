@@ -20,10 +20,12 @@ const contactsReducer = (state = contactInitialState, action) => {
                 ...state,
                 contacts: state.contacts.filter(contact => contact.id !== action.payload)
             } 
-        case "contacts/filterContact":
-           state.filter = action.payload;
-              return  state.contacts?.filter((item) => item.name.includes(action.payload))
+       case "contacts/filterContact":
             
+            return {
+                ...state,
+                filter: action.payload
+            }
     
      default:
       return state;
